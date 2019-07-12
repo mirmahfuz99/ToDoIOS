@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B92723BF22D8431A00F84D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92723BE22D8431A00F84D97 /* AppDelegate.swift */; };
-		B92723C122D8431A00F84D97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92723C022D8431A00F84D97 /* ViewController.swift */; };
+		B92723C122D8431A00F84D97 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92723C022D8431A00F84D97 /* ToDoListViewController.swift */; };
 		B92723C422D8431A00F84D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B92723C222D8431A00F84D97 /* Main.storyboard */; };
 		B92723C622D8433000F84D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92723C522D8433000F84D97 /* Assets.xcassets */; };
 		B92723C922D8433000F84D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B92723C722D8433000F84D97 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		B92723BB22D8431A00F84D97 /* ToDoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B92723BE22D8431A00F84D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B92723C022D8431A00F84D97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B92723C022D8431A00F84D97 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
 		B92723C322D8431A00F84D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B92723C522D8433000F84D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B92723C822D8433000F84D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				B92723BE22D8431A00F84D97 /* AppDelegate.swift */,
-				B92723C022D8431A00F84D97 /* ViewController.swift */,
+				B92723C022D8431A00F84D97 /* ToDoListViewController.swift */,
 				B92723C222D8431A00F84D97 /* Main.storyboard */,
 				B92723C522D8433000F84D97 /* Assets.xcassets */,
 				B92723C722D8433000F84D97 /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B92723C122D8431A00F84D97 /* ViewController.swift in Sources */,
+				B92723C122D8431A00F84D97 /* ToDoListViewController.swift in Sources */,
 				B92723BF22D8431A00F84D97 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,8 +282,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AWM4GZJR5Z;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ToDoIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,6 +292,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mir.ToDoIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,8 +302,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AWM4GZJR5Z;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ToDoIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +312,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mir.ToDoIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
